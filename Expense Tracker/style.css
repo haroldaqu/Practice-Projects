@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin-bottom: 5vh;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.allInputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+th {
+  border: solid silver;
+  border-width: thin;
+  width: 25%;
+  gap: 0;
+}
