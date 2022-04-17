@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  margin: 5vh;
+  height: 10vh;
+  width: 20vh;
+  font-size: 3vh;
+  color: white;
+  border: solid rgb(204, 170, 170);
+  background: rgb(245, 97, 97);
+  border-radius: 5%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.userInput {
+  padding: 2.5vh;
+  height: 7.5vh;
+  width: 20vh;
+  font-size: 3vh;
+  border: solid rgb(245, 97, 97);
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  outline: none;
+  color: rgb(245, 97, 97);
+}
+
+.submitButton {
+  height: 2.5vh;
+  background: rgb(245, 97, 97);
+  border: rgb(245, 97, 97);
+  color: white;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newDiv {
+  outline: solid red;
+  margin: 0;
+  padding: 2vh;
+  height: auto;
+  width: 20%;
+}
+
+.div1:hover {
+  background-color: black;
+}
+.div2:hover {
+  background-color: rgb(24, 22, 22);
+}
+.div3:hover {
+  background-color: rgb(77, 61, 61);
+}
+.div4:hover {
+  background-color: rgb(129, 75, 75);
+}
+.div5:hover {
+  background-color: rgb(143, 69, 69);
+}
+.div6:hover {
+  background-color: rgb(218, 68, 68);
+}
+.div7:hover {
+  background-color: rgb(211, 29, 29);
+}
+.div8:hover {
+  background-color: rgb(190, 10, 10);
+}
+.div9:hover {
+  background-color: rgb(163, 7, 7);
+}
+.div10:hover {
+  background-color: rgb(90, 5, 5);
+}
+.div11:hover {
+  background-color: rgb(148, 8, 8);
+}
+.div12:hover {
+  background-color: rgb(235, 10, 10);
+}
+.div13:hover {
+  background-color: rgb(247, 54, 54);
+}
+.div14:hover {
+  background-color: rgb(240, 73, 73);
+}
+.div15:hover {
+  background-color: rgb(233, 106, 106);
+}
+.div16:hover {
+  background-color: rgb(231, 122, 122);
+}
