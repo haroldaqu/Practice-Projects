@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80vh;
+}
+
+.clearButton,
+.eraseButton,
+.colorButton {
+  height: 10vh;
+  width: 15vh;
+  font-size: 3vh;
+  color: white;
+  border: solid rgb(204, 170, 170);
+  background: rgb(245, 97, 97);
+  border-radius: 5%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.userInputBox {
+  padding: 2.5vh;
+  height: 7.5vh;
+  width: 15vh;
+  font-size: 3vh;
+  border: solid rgb(245, 97, 97);
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  outline: none;
+  color: rgb(245, 97, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitButton {
+  height: 2.5vh;
+  background: rgb(245, 97, 97);
+  border: rgb(245, 97, 97);
+  color: white;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.container {
+  border: solid black;
+  height: 600px;
+  width: 600px;
+  display: grid;
+}
+
+.newDiv {
+  /* outline: solid red; */
+}
+
+.divColor {
+  background: white;
+}
